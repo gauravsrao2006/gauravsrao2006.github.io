@@ -1,0 +1,6 @@
+body{background-color:grey;font-family:Arial;font-size:24px;text-align:center}
+div.header {padding: 20px; text-align: center; background: #1abc9c; color: white; font-size: 30px;}
+table,td,th{border: 3px solid black;margin-left:auto;margin-right:auto; border-collapse:collapse;width:100%; padding: 15px;table-layout: auto;}
+th{background-color:#1abc9c}
+tr:hover{background-colour:yellow}
+button{background-color: #1abc9c; border: none; color: white; padding: 16px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; transition-duration: 0.4s; cursor: pointer;}
