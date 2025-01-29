@@ -43,15 +43,14 @@ function addRow()
   let date2 = new Date(TaskDetails.t2.value);
   let diff = new Date(date2.getTime() - date1.getTime());
   let times = diff.getTime();
-  cell3.innerHTML = times;
-  cell4.innerHTML = <button id="btnDel" type="BUTTON" onclick="delRow()">;  
+  cell3.innerHTML = times/1000;
 }
 function delRow()
 {
 var button = document.getElementById("btnDel");
 var del = document.getElementById("btnDel").rows;
 var table = document.getElementById("myTable");
-
+}
 </script>
 
 </body>
